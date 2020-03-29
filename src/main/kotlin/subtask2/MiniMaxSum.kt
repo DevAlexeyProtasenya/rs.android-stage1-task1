@@ -4,6 +4,6 @@ class MiniMaxSum {
 
     // TODO: Complete the following function
     fun getResult(input: IntArray): IntArray {
-        throw NotImplementedError("Not implemented")
+        return intArrayOf(input.sum() - input.max()!!, input.sum() - input.min()!!)
     }
 }
